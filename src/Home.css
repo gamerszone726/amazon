@@ -1,0 +1,26 @@
+.Banner{
+   
+    background-image: url("https://i.imgur.com/SYHeuYM.jpg");
+    height:900px;
+    background-position: center;
+    background-size:cover;
+    z-index:1;
+   
+}
+
+.Content{
+    
+    color:black;
+    padding-left:10px;
+    padding-right:10px;
+    margin-top:350px;
+    z-index:100;
+    display: flex;
+    
+    
+}
+
+.Container{
+    height: 850px;
+    margin:0 auto;
+}

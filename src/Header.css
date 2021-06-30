@@ -1,0 +1,97 @@
+.Header{
+    height:60px;
+    background-color:black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.Header__Logo>img{
+
+    width:100px;
+    margin-left:10px; 
+    margin-top:15px;  
+}
+
+.HeaderSearch{
+    display: flex;
+    flex-grow:1;
+    border-radius:4px;
+    overflow: hidden;
+    padding-left:10px;
+
+   
+}
+.HeaderSearch:focus-within{
+    background-color: white;
+    box-shadow:0 0  0 3px #F90;
+}
+
+
+
+input{
+    flex-grow:1;
+    height:40px;
+    border:0;
+}
+
+
+
+input:focus{
+    outline:none;
+}
+
+.HeaderOptionAddress{
+    padding-left:10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.HeaderSearchIconContainer{
+    display: flex;
+    width:45px;
+    background:orange;
+    color:black;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeaderNavItems{
+    display: flex;
+    
+}
+
+.OptionLineTwo{
+    font-weight: 700;
+}
+
+.HeaderOption{
+    
+    padding:9px 9px 10px 10px;
+}
+
+.HeaderOptionCart{
+   
+        display: flex;
+        align-items: center;
+        padding-right: 10px;
+    
+}
+.HeaderOptionCart>a{
+    display: flex;
+    align-items:center;
+    padding-right:10px;
+    color:white;
+    text-decoration: none;
+}
+
+
+
+
+.CartCount{
+    padding-left:5px;
+    font-weight:700;
+    color:orange;
+}
